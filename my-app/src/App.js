@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import Registration from './registration/jsx/registration';
 import SignIn from './signIn/jsx/sigIn';
-
+import AddPatient from './addPatient/jsx/addPatient'
 
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
                         <Route exact path='/' component={MainPage}/>
                         <Route path='/register' component={Registration}/>
                         <Route path='/login' component={SignIn}/>
-
+                        <Route path='/add' component={AddPatient}/>
                     </Switch>
                 </div>
             </HashRouter>

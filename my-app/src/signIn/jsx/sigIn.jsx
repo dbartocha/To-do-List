@@ -10,10 +10,10 @@ class SignIn extends React.Component {
 
     state = {
 
-        login: '',
         password: '',
         errors: '',
-        good: ''
+        good: '',
+        login:false
     };
 
     handleChange = (e) => {
