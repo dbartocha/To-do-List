@@ -10,12 +10,13 @@ import Registration from './registration/jsx/registration';
 import SignIn from './signIn/jsx/sigIn';
 
 
+
 class App extends Component {
     render() {
         return (
             <HashRouter>
                 <div>
-                    <Switch>
+                   <Switch>
                         <Route exact path='/' component={MainPage}/>
                         <Route path='/register' component={Registration}/>
                         <Route path='/login' component={SignIn}/>
@@ -26,5 +27,6 @@ class App extends Component {
         );
     }
 }
+
 
 export default App;
