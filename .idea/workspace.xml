@@ -6,6 +6,12 @@
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/signIn/jsx/sigIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/signIn/sass/signInStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/signIn/sass/signInStyle.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,9 +36,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ico" value="1" />
-          <entry key="js" value="9" />
+          <entry key="js" value="10" />
           <entry key="json" value="1" />
-          <entry key="jsx" value="17" />
+          <entry key="jsx" value="18" />
           <entry key="scss" value="7" />
         </counts>
       </usages-collector>
@@ -40,8 +46,8 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JSX Harmony" value="16" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JSX Harmony" value="17" />
+          <entry key="JavaScript" value="10" />
           <entry key="SCSS" value="7" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -49,13 +55,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="389" />
-          <entry key="jsx" value="7946" />
+          <entry key="jsx" value="8825" />
           <entry key="scss" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="7946" />
+          <entry key="JSX Harmony" value="8825" />
           <entry key="JavaScript" value="389" />
           <entry key="SCSS" value="263" />
         </counts>
@@ -115,17 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+            <state relative-caret-position="-3384">
+              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -133,11 +130,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+            <state relative-caret-position="1176">
+              <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -148,20 +157,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="37" column="2" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="37" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-768">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/signIn/jsx/sigIn.jsx">
+        <entry file="file://$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="51" />
+            <state relative-caret-position="504">
+              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -188,12 +203,12 @@
         <option value="$PROJECT_DIR$/my-app/src/mainPage/sass/mainPageStyle.scss" />
         <option value="$PROJECT_DIR$/my-app/src/addPatient/sass/addPatientStyle.scss" />
         <option value="$PROJECT_DIR$/my-app/src/signIn/jsx/sigIn.jsx" />
-        <option value="$PROJECT_DIR$/my-app/src/App.js" />
-        <option value="$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx" />
-        <option value="$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx" />
-        <option value="$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx" />
-        <option value="$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/App.js" />
       </list>
     </option>
   </component>
@@ -247,51 +262,6 @@
             </path>
             <path>
               <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mainPage" type="462c0819:PsiDirectoryNode" />
-              <item name="jsx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patients" type="462c0819:PsiDirectoryNode" />
-              <item name="jsx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="To-do-List" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
-              <item name="jsx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="To-do-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -339,15 +309,16 @@
       <workItem from="1536189562944" duration="6329000" />
       <workItem from="1536196164126" duration="3668000" />
       <workItem from="1536224438014" duration="27541000" />
-      <workItem from="1536268737157" duration="14456000" />
+      <workItem from="1536268737157" duration="17202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51994000" />
+    <option name="totallyTimeSpent" value="54740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.24917382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972677" />
@@ -445,47 +416,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx">
+    <entry file="file://$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+        <state relative-caret-position="1176">
+          <caret line="49" column="58" lean-forward="true" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/signIn/jsx/sigIn.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        <state relative-caret-position="840">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -494,21 +438,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/addPatient/jsx/addPatient.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="37" selection-end-column="2" />
+        <state relative-caret-position="-768">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/registration/jsx/registration.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/patients/jsx/patients.jsx">
+    <entry file="file://$PROJECT_DIR$/my-app/src/mainPage/jsx/mainPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        <state relative-caret-position="-3384">
+          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/mainPageLogged/jsx/mainPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>

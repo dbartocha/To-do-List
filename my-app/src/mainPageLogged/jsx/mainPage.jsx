@@ -54,7 +54,7 @@ class MainPageLogged extends React.Component {
 
                     <h1> Witaj {this.state.login}!!</h1>
                     <button onClick={this.patients}>Pacjenci</button>
-
+                    <Link to='/'><button>Wyloguj</button></Link>
                     <div className='hit-the-floor logo'><span>Sissy</span> Virtual Nurse</div>
                     <div className='sissy'>
                     </div>

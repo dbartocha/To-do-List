@@ -49,11 +49,11 @@ class Patients extends React.Component {
                     <ul>
                         {this.state.patients.map((el) => {
 
-                                return (<li>
+                                return (<li key={el.name}>
                                     <span>Imię pacjenta : {el.name}</span>
-                                    <span> Wiek pacjenta : {el.age}</span>
-                                    <span>Wzrost pacjenta : {el.height}</span>
-                                    <span>Waga pacjenta : {el.weight}</span>
+                                    <span> Wiek pacjenta : {el.age} lat </span>
+                                    <span>Wzrost pacjenta : {el.height} cm </span>
+                                    <span>Waga pacjenta : {el.weight} kg </span>
                                     <span>Grupa krwi pacjenta : {el.bloodGroup}</span>
                                 </li>)
                             }

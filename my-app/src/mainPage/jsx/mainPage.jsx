@@ -25,7 +25,7 @@ class MainPage extends React.Component {
     };
 
 
-    //Ta funkcja odpowiada za wysyłanie danych do bazy danych
+    //Ta funkcja odpowiada za wysyłanie danych do bazy danych i za walidację :)
     handleClick = () => {
 
 

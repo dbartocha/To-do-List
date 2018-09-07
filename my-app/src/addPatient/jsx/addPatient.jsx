@@ -1,8 +1,5 @@
 import React from 'react';
 import '../sass/addPatientStyle.css'
-import {
-    Link
-} from 'react-router-dom';
 import * as firebase from "firebase";
 import MainPageLogged from "../../mainPageLogged/jsx/mainPage";
 
@@ -28,7 +25,7 @@ class AddPatient extends React.Component {
             [e.target.id]: e.target.value
         })
     };
-
+// Ta funkcja pomaga wrócić na stronę główną
     backToMain=()=>{
 
     this.setState({
@@ -36,6 +33,8 @@ class AddPatient extends React.Component {
     })
 
 };
+
+    // Ta funkcja sprawdza czy pola nie są puste i jeśli nie są dodaje do danego użytkownika pacjenta
     adding = () => {
         if (this.state.name.length < 1 && this.state.weight.length < 1 && this.state.height < 1 && this.state.bloodGroup.length < 1 && this.state.age.length < 1) {
 
