@@ -19,13 +19,15 @@ class MainPage extends React.Component {
                         <Link to='/1'>
                             <div className='butt'>
                                 <div className='doctorIcon'></div>
+                                <p className='hit-the-floor add3 '>Terminarz</p>
                             </div>
                         </Link>
                     </div>
                     <div className='buttons secondButtonDiv'>
                         <Link to='/2'>
-                            <div className='butt'>
+                            <div className='butt '>
                                 <div className='medicineIcon'></div>
+                                <p className='hit-the-floor add3 '>Lekarstwa</p>
                             </div>
                         </Link>
                     </div>
@@ -33,6 +35,7 @@ class MainPage extends React.Component {
                         <Link to='/3'>
                             <div className='butt'>
                                 <div className='historyIcon'></div>
+                                <p className='hit-the-floor add3 card'>Twoja karta</p>
                             </div>
                         </Link>
                     </div>
@@ -40,6 +43,7 @@ class MainPage extends React.Component {
                         <Link to='/4'>
                             <div className='butt'>
                                 <div className='contactIcon'></div>
+                                <p className='hit-the-floor add3 '>Kontakty</p>
                             </div>
                         </Link>
                     </div>

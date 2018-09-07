@@ -59,7 +59,7 @@
   transform: rotate(45deg); }
 
 .btn:hover {
-  transform: rotate(45deg) scale(1.05); }
+  transform: rotate(45deg) scale(1.15); }
 
 .add {
   color: rgba(0, 0, 0, 0.8);
@@ -80,10 +80,22 @@
   top: 114px;
   left: 0; }
 
+.add3 {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 15px;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  top: 72px;
+  left: -62px;
+  transition: 0.5s; }
+  .add3:hover {
+    color: #e23931; }
+
 .infoBox {
   width: 250px;
   height: 500px;
-  border: 5px solid red;
+  border: 5px solid #e23931;
   position: relative;
   top: -830px;
   left: 1500px; }
@@ -95,12 +107,18 @@
   margin-left: -80px; }
 
 .butt {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  transition: 0.5s;
+  border: rgba(0, 0, 0, 0.3) solid 6px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.9);
+  border-radius: 10px; }
+  .butt:hover {
+    transform: scale(1.05); }
 
 .doctorIcon {
   background-image: url("../img/doctor.png");
@@ -108,46 +126,53 @@
   width: 140px;
   height: 128px;
   position: relative;
-  top: 0;
-  left: 0; }
+  top: -25px;
+  left: 84px; }
 
 .medicineIcon {
   background-image: url("../img/medicine.png");
   background-size: auto;
-  width: 140px;
+  width: 136px;
   height: 128px;
   position: relative;
-  top: 0;
-  left: 0; }
+  top: -15px;
+  left: 52px; }
 
 .historyIcon {
   background-image: url("../img/medical-history.png");
   background-size: auto;
-  width: 140px;
+  width: 132px;
   height: 128px;
   position: relative;
-  top: 0;
-  left: 0; }
+  top: -30px;
+  left: 86px; }
+
+.card {
+  width: 174px !important;
+  margin-left: 16px;
+  margin-bottom: 22px; }
 
 .contactIcon {
   background-image: url("../img/contact.png");
   background-size: auto;
-  width: 140px;
+  width: 128px;
   height: 128px;
   position: relative;
-  top: 0;
-  left: 0; }
+  top: -20px;
+  left: 66px; }
 
 .buttons {
   width: 48%;
-  height: 48%;
-  border: 2px solid #aaaaaa; }
+  height: 48%; }
+
+a {
+  text-decoration: none; }
 
 .fourButtons {
   display: flex;
   flex-flow: wrap;
-  width: 600px;
-  height: 400px;
+  width: 610px;
+  height: 450px;
   border-radius: 20px;
   position: relative;
   top: -370px;
