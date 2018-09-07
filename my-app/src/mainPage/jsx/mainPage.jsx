@@ -4,7 +4,7 @@ import {
     Link
 } from 'react-router-dom';
 import * as firebase from "firebase";
-
+import MainPageLogged from '../../mainPageLogged/jsx/mainPage'
 
 class MainPage extends React.Component {
 
@@ -33,11 +33,25 @@ class MainPage extends React.Component {
 
             const val = snap.val();
 
+            snap.forEach((el)=>{
+
+                if(this.state.login===el.val().login){
+                    this.setState({
+                        id:el.key
+                    })
+                }
+
+
+            });
+
+
+
 
             for (let key in val) {
 
 
                 if (this.state.login === val[key].login && this.state.password === val[key].password) {
+
                     this.setState({
                         check: true,
                         good: ["Brawo udało Ci się zalogować!! ;)"]
@@ -53,6 +67,9 @@ class MainPage extends React.Component {
 
             }
 
+
+
+
         })
 
 
@@ -60,6 +77,7 @@ class MainPage extends React.Component {
 
 
     render() {
+
         //Tu mamy warunkowe renderowanie aby rozróźnić elementy przed i po zalogowaniu
         //Te większe przerwy, pomiędzy nie wrzuciłem formularz logowania :)
         //Tu pod spodem jest strona przed zalogowaniem
@@ -98,32 +116,32 @@ class MainPage extends React.Component {
 
                     <div className="fourButtons">
                         <div className='buttons firstButtonDiv'>
-                            <Link to='/1'>
+
                                 <div className='butt'>
-                                    <div className='doctorIcon'></div>
+                                    <div className='doctorIcon'> </div>
                                 </div>
-                            </Link>
+
                         </div>
                         <div className='buttons secondButtonDiv'>
-                            <Link to='/2'>
+
                                 <div className='butt'>
-                                    <div className='medicineIcon'></div>
+                                    <div className='medicineIcon'> </div>
                                 </div>
-                            </Link>
+
                         </div>
                         <div className='buttons thirdButtonDiv'>
-                            <Link to='/3'>
+
                                 <div className='butt'>
-                                    <div className='historyIcon'></div>
+                                    <div className='historyIcon'> </div>
                                 </div>
-                            </Link>
+
                         </div>
                         <div className='buttons fourthButtonDiv'>
-                            <Link to='/4'>
+
                                 <div className='butt'>
-                                    <div className='contactIcon'></div>
+                                    <div className='contactIcon'> </div>
                                 </div>
-                            </Link>
+
                         </div>
                     </div>
                     <div className='infoBox'>
@@ -131,12 +149,12 @@ class MainPage extends React.Component {
                     </div>
 
                     <div className='addUser'>
-                        <Link to='/add'>
+
 
                             <button className='hit-the-floor add '> Dodaj</button>
-                            <button className='hit-the-floor btn'></button>
+                            <button className='hit-the-floor btn'> </button>
                             <button className='hit-the-floor add2 '>pacjenta</button>
-                        </Link>
+
                     </div>
 
                     <div className='registerBox'>
@@ -155,96 +173,9 @@ class MainPage extends React.Component {
 
         //Tu mamy wersję strony po zalogowaniu :)
         else {
-            return (
-                <div className='body'>
-
-
-                    <div>
-
-                        <div>
-                            <input type="text" id='login' placeholder='Podaj nazwę użytkownika'
-                                   onChange={this.handleChange}/>
-                        </div>
-                        <div>
-                            <input type="password" id='password' placeholder='Wpisz hasło'
-                                   onChange={this.handleChange}/>
-                        </div>
-                        <div>
-                            <button onClick={this.handleClick}>Zaloguj</button>
-                        </div>
-
-                        <div>
-                            <Link to='/'>
-                                <button>Strona główna</button>
-                            </Link>
-                        </div>
-                        <div>
-
-                            {this.state.good.length > 0 ? <h1>{this.state.good}</h1> : <h1>{this.state.errors}</h1>}
-
-
-                        </div>
-                    </div>
-
-
-                    <div className='hit-the-floor logo'><span>Sissy</span> Virtual Nurse</div>
-                    <div className='sissy'>
-                    </div>
-
-                    <div className="fourButtons">
-                        <div className='buttons firstButtonDiv'>
-                            <Link to='/1'>
-                                <div className='butt'>
-                                    <div className='doctorIcon'></div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className='buttons secondButtonDiv'>
-                            <Link to='/2'>
-                                <div className='butt'>
-                                    <div className='medicineIcon'></div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className='buttons thirdButtonDiv'>
-                            <Link to='/3'>
-                                <div className='butt'>
-                                    <div className='historyIcon'></div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className='buttons fourthButtonDiv'>
-                            <Link to='/4'>
-                                <div className='butt'>
-                                    <div className='contactIcon'></div>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className='infoBox'>
-                        xxx
-                    </div>
-
-                    <div className='addUser'>
-                        <Link to='/add'>
-
-                            <button className='hit-the-floor add '> Dodaj</button>
-                            <button className='hit-the-floor btn'></button>
-                            <button className='hit-the-floor add2 '>pacjenta</button>
-                        </Link>
-                    </div>
-
-                    <div className='registerBox'>
-                        <Link to='/register'>
-                            <button className='hit-the-floor registerBtn'>Zarejestruj się!</button>
-                        </Link>
-                    </div>
-
-
-                </div>
-
-
-            )
+           return (
+               <MainPageLogged login={this.state.login} id={this.state.id}/>
+           )
         }
 
     }
