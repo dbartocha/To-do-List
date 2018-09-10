@@ -78,6 +78,40 @@ class MainPage extends React.Component {
 
     render() {
 
+
+                <div className="fourButtons">
+                    <div className='buttons firstButtonDiv'>
+                        <Link to='/1'>
+                            <div className='butt'>
+                                <div className='doctorIcon'></div>
+                                <p className='hit-the-floor add3 '>Terminarz</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className='buttons secondButtonDiv'>
+                        <Link to='/2'>
+                            <div className='butt '>
+                                <div className='medicineIcon'></div>
+                                <p className='hit-the-floor add3 '>Lekarstwa</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className='buttons thirdButtonDiv'>
+                        <Link to='/3'>
+                            <div className='butt'>
+                                <div className='historyIcon'></div>
+                                <p className='hit-the-floor add3 card'>Twoja karta</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className='buttons fourthButtonDiv'>
+                        <Link to='/4'>
+                            <div className='butt'>
+                                <div className='contactIcon'></div>
+                                <p className='hit-the-floor add3 '>Kontakty</p>
+                            </div>
+                        </Link>
+
         //Tu mamy warunkowe renderowanie aby rozróźnić elementy przed i po zalogowaniu
         //Te większe przerwy, pomiędzy nie wrzuciłem formularz logowania :)
         //Tu pod spodem jest strona przed zalogowaniem
@@ -146,6 +180,7 @@ class MainPage extends React.Component {
                     </div>
                     <div className='infoBox'>
                         xxx
+
                     </div>
 
                     <div className='addUser'>
